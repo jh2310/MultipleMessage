@@ -18,4 +18,8 @@ public class App
     	System.out.println("test success");
     }
     
+    void test2() {
+    	
+    }
+    
 }
