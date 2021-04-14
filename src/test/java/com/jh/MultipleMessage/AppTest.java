@@ -10,29 +10,7 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
-
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+    public static void main(String[] args) {
+		System.out.println("https://mbgo.longzhu.com/chatroom/sendmsg?group=2366243&content=1&color=0xffffff&style=1&utmSr=&platform=h5&device=android");
+	}
 }
